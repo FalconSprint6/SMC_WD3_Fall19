@@ -1,1 +1,0 @@
-# SMC_WD3_Fall19
