@@ -1,1 +1,4 @@
-bg-
+.bg-dark {
+    color: black;
+    background-color: black !important;
+}
