@@ -8,6 +8,6 @@
     color:	#B3946F !important
 }
 
-.jumbotron {
-    background-position-y: top !important
+.jumbotron-fluid {
+    text-align:center !important
 }
