@@ -7,3 +7,7 @@
 .bg-dark li a {
     color:	#B3946F !important
 }
+
+.jumbotron {
+    background-position-y: top !important
+}
