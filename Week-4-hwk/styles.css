@@ -1,4 +1,9 @@
 .bg-dark {
     color: black;
     background-color: black !important;
+    
+}
+
+.bg-dark li a {
+    color:#7B6551 !important
 }
