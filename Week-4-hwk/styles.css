@@ -22,3 +22,8 @@
 .subsubhead {
     color: #B3946F 
 }
+
+.card {
+    border-color: #B3946F !important;
+    background-color: transparent !important
+}
