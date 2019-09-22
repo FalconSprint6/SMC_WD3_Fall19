@@ -5,6 +5,7 @@
 }
 
 .bg-dark li a {
+    font-family: 'Roboto', sans-serif;
     color:	#B3946F !important
 }
 
@@ -13,14 +14,16 @@
 }
 
 .heading {
-    color: #B3946F !important
+    color: #B3946F !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 .subhead {
     color:#B3946F !important
 }
 .subsubhead {
-    color: #B3946F 
+    color: #B3946F;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card {
@@ -28,20 +31,29 @@
     background-color: transparent !important
 }
 .card-title {
-    color: #EBBB7E !important
+    color: #EBBB7E !important;
+    font-family: 'Roboto', sans-serif !important
 }
 .btn-primary {
     color: #EBBB7E !important;
     border-color: #031853 !important;
-    background-color: #031853 !important
+    background-color: #031853 !important;
+    font-family: 'Roboto', sans-serif !important
 }
 .table-light{
-    opacity: .6
+    opacity: .6;
+    font-family: 'Roboto', sans-serif;
 }
 
 .table .year {
-color: #EBBB7E
+color: #EBBB7E;
+font-family: 'Roboto', sans-serif;
 }
 .table .units {
-    color: white
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-white {
+    font-family: 'Domine', serif;
 }
