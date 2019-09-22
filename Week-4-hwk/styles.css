@@ -27,3 +27,11 @@
     border-color: #B3946F !important;
     background-color: transparent !important
 }
+.card-title {
+    color: #EBBB7E !important
+}
+.btn-primary {
+    color: #EBBB7E !important;
+    border-color: #031853 !important;
+    background-color: #031853 !important
+}
