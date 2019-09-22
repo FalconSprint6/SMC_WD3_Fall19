@@ -35,3 +35,13 @@
     border-color: #031853 !important;
     background-color: #031853 !important
 }
+.table-light{
+    opacity: .6
+}
+
+.table .year {
+color: #EBBB7E
+}
+.table .units {
+    color: white
+}
