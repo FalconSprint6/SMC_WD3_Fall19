@@ -75,3 +75,18 @@ font-family: 'Roboto', sans-serif;
 .card-text {
     font-size: .8em
 }
+
+.stripe {
+    height:15;
+    color: #B3946F
+}
+
+.bottom
+{
+    height:30;
+    color: black
+}
+
+.page-footer {
+    height: 50
+}
