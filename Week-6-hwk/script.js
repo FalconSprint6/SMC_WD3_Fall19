@@ -2,12 +2,30 @@ $( document ).ready(function() {
     console.log( "ready!" );
 });
 
-function FillBilling(checked) {
-    if (checked) {  
-        document.getElementById('shippingfirstName').value = document.getElementById('billingfirstName').value;   
+function addressFunction() 
+{
+    if (document.getElementById('fillbilling').checked)
+    {  
+        document.getElementById('billingfirstName').value = document.getElementById('shippingfirstName').value; 
+        document.getElementById('billinglastName').value = document.getElementById('shippinglastName').value;
+        document.getElementById('billingAddress').value = document.getElementById('shippingAddress').value;
+        document.getElementById('billingAddress2').value = document.getElementById('shippingAddress2').value;
+        document.getElementById('billingCountry').value = document.getElementById('shippingCountry').value;
+
   
 } else {  
-        document.getElementById('shippingfirstName').value = '';   
+        document.getElementById('billingfirstName').value = '';   
+        document.getElemeentById('billinglastName').value = '';
+        document.getElementById('billingAddress').value = '';
+        document.getElementById('billingAddress2').value = '';
+        document.getElementById('billingCountry').value = '';
+
+
         
 }  
 } 
+
+function stateFunction()
+{
+    
+}
