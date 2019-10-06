@@ -11,6 +11,9 @@ function addressFunction()
         document.getElementById('billingAddress').value = document.getElementById('shippingAddress').value;
         document.getElementById('billingAddress2').value = document.getElementById('shippingAddress2').value;
         document.getElementById('billingCountry').value = document.getElementById('shippingCountry').value;
+        document.getElementById('billingState').value = document.getElementById('shippingState').value;
+        document.getElementById('billingCity').value = document.getElementById('shippingCity').value;
+        document.getElementById('billingZip').value = document.getElementById('shippingZip').value;
 
   
 } else {  
@@ -19,6 +22,12 @@ function addressFunction()
         document.getElementById('billingAddress').value = '';
         document.getElementById('billingAddress2').value = '';
         document.getElementById('billingCountry').value = '';
+        document.getElementById('billingState').value = '';
+        document.getElementById('billingCity').value = '';
+        document.getElementById('billingZip').value = '';
+
+
+
 
 
         
@@ -27,5 +36,5 @@ function addressFunction()
 
 function stateFunction()
 {
-    
+
 }

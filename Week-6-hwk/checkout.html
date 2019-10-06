@@ -107,20 +107,20 @@
                       </div>
                       <div class="col-md-4 mb-3">
                         <label for="state">State</label>
-                        <select class="custom-select d-block w-100" id="state" onselect="stateFunction()" required="">
+                        <select class="custom-select d-block w-100" id="shippingState" onselect="stateFunction()" required="">
                           <option value="">Choose...</option>
-                          <option>California</option>
-                          <option>Montana</option>
-                          <option>Nevada</option>
-                          <option>Tennessee</option>
+                          <option class="California">California</option>
+                          <option class="Montana">Montana</option>
+                          <option class="Nevada">Nevada</option>
+                          <option class="Tennessee">Tennessee</option>
                         </select>
                         <div class="invalid-feedback">
                           Please provide a valid state.
                         </div>
                       </div>
                       <div class="col-md-4 mb-3">
-                            <label for="state">City</label>
-                            <select class="custom-select d-block w-100" id="state" required="">
+                            <label for="city">City</label>
+                            <select class="custom-select d-block w-100" id="shippingCity" required="">
                               <option value="">Choose...</option>
                               <option>Daly City</option>
                               <option>Goodsprings</option>
@@ -130,13 +130,13 @@
                               <option>Lincoln</option>
                             </select>
                             <div class="invalid-feedback">
-                              Please provide a valid state.
+                              Please provide a valid city.
                             </div>
                           </div>
                       
                       <div class="col-md-3 mb-3">
                         <label for="zip">Zip</label>
-                        <input type="text" class="form-control" id="zip" placeholder="" required="">
+                        <input type="text" class="form-control" id="shippingZip" placeholder="" required="">
                         <div class="invalid-feedback">
                           Zip code required.
                         </div>
@@ -173,14 +173,6 @@
                     </div>
             
                     <div class="mb-3">
-                      <label for="email">Email <span class="text-muted">(Optional)</span></label>
-                      <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                      <div class="invalid-feedback">
-                        Please enter a valid email address for shipping updates.
-                      </div>
-                    </div>
-            
-                    <div class="mb-3">
                       <label for="address">Address</label>
                       <input type="text" class="form-control" id="billingAddress" placeholder="1234 Main St" required="">
                       <div class="invalid-feedback">
@@ -206,7 +198,7 @@
                       </div>
                       <div class="col-md-4 mb-3">
                         <label for="state">State</label>
-                        <select class="custom-select d-block w-100" id="state" required="">
+                        <select class="custom-select d-block w-100" id="billingState" required="">
                           <option value="">Choose...</option>
                           <option>California</option>
                         </select>
@@ -214,9 +206,24 @@
                           Please provide a valid state.
                         </div>
                       </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="city">City</label>
+                        <select class="custom-select d-block w-100" id="billingCity" required="">
+                          <option value="">Choose...</option>
+                          <option>Daly City</option>
+                          <option>Goodsprings</option>
+                          <option>Los Angeles</option>
+                          <option>Murphys</option>
+                          <option>Nashville</option>
+                          <option>Lincoln</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please provide a valid city.
+                        </div>
+                      </div>
                       <div class="col-md-3 mb-3">
                         <label for="zip">Zip</label>
-                        <input type="text" class="form-control" id="zip" placeholder="" required="">
+                        <input type="text" class="form-control" id="billingZip" placeholder="" required="">
                         <div class="invalid-feedback">
                           Zip code required.
                         </div>
