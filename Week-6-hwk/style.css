@@ -13,5 +13,30 @@
     border-color: #50342b !important;
 }
 .navbar .btn:hover{
-    color: #ffeeed !important;
+    background-color: #f5d7e1 !important;
+    border-color: #f5d7e1 !important;
+    color: black !important;
+}
+
+.cart-header {
+    font-family: 'Carme', sans-serif !important;
+    font-weight: 600 !important;
+    color:#50342b;
+}
+
+.your-cart {
+    font-family: 'Carme', sans-serif !important;
+    font-weight: 600 !important;
+    color:#50342b !important;
+}
+
+.badge-pill {
+    background-color:#b8e0da !important;
+    font-family: 'Carme', sans-serif !important;
+}
+
+.list-group{
+    font-family: 'Carme', sans-serif !important;
+    font-weight: 600 !important;
+    color: #50342b !important;
 }

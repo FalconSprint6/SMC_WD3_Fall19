@@ -34,6 +34,3 @@ function addressFunction()
 }  
 } 
 
-function stateFunction()
-{
-    
