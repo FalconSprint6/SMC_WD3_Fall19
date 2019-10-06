@@ -13,9 +13,9 @@
     border-color: #50342b !important;
 }
 .navbar .btn:hover{
-    background-color: #f5d7e1 !important;
-    border-color: #f5d7e1 !important;
-    color: black !important;
+    background-color: #e3bcc9 !important;
+    border-color: #e3bcc9 !important;
+    color: white !important;
 }
 
 .cart-header {
@@ -39,4 +39,70 @@
     font-family: 'Carme', sans-serif !important;
     font-weight: 600 !important;
     color: #50342b !important;
+}
+
+.btn-primary {
+    font-family: 'Carme', sans-serif !important;
+    font-weight: 600 !important;
+    background-color: #e3bcc9 !important;
+    border-color: #e3bcc9 !important;
+    
+}
+
+.btn-primary:hover {
+    font-family: 'Carme', sans-serif !important;
+    font-weight: 600 !important;
+    background-color: #ebc0d0 !important;
+    border-color: #ebc0d0 !important;
+}
+
+.checkoutHeader {
+    font-family: 'Carme', sans-serif !important; 
+    font-weight: 600 !important;
+    color:#50342b;
+}
+
+.shipping {
+    font-family: 'Carme', sans-serif !important; 
+    font-weight: 600 !important;
+    color:#50342b;
+}
+
+.needs-validation {
+    font-family: 'Carme', sans-serif !important; 
+    font-weight: 600 !important;
+    color:#50342b;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='white' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+    background-color: #e3bcc9!important;
+    border-radius: 25%;
+}
+
+.custom-checkbox .custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(255, 123, 255, 0.25);
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::after {
+    background-color: #e3bcc9 !important;
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E);
+    border-radius: 50%;
+}
+
+.custom-radio .custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(255, 123, 255, 0.25);
+}
+
+.btn-primary,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #e3bcc9;
+    border-color: #e3bcc9;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #e3bcc9;
+    border-color: #e3bcc9;
 }
