@@ -36,5 +36,4 @@ function addressFunction()
 
 function stateFunction()
 {
-
-}
+    

@@ -1,0 +1,17 @@
+.navbar .nav-link 
+{
+    font-family: 'Carme', sans-serif !important; 
+    font-weight: 600 !important;
+    color:#50342b;
+}
+.navbar 
+{
+    background-color: #ffeeed !important;
+}
+.navbar .btn {
+    color: #50342b !important;
+    border-color: #50342b !important;
+}
+.navbar .btn:hover{
+    color: #ffeeed !important;
+}
