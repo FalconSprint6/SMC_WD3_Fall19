@@ -36,4 +36,11 @@ function checkifempty(){
 }
 setInterval("checkifempty()",100)
 
+function checkifempty(){
+    if (document.getElementById('billinglastName').value=='')
+        document.getElementById('cc-cvv').disabled=true
+    else
+        document.getElementById('cc-cvv').disabled=false
+}
+setInterval("checkifempty()",100)
 
