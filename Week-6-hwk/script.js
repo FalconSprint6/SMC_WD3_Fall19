@@ -26,10 +26,19 @@ function addressFunction()
         document.getElementById('billingCity').value = '';
         document.getElementById('billingZip').value = '';       
 }  
-} 
+}
+
+
+
+$('shippingState').change(function(){
+        $('shippingCity').val($(this).val());
+})
+
+
+
 
 function checkifempty(){
-    if (document.getElementById('billingfirstName').value=='')
+    if (document.getElementById('shippingfirstName').value=='')
         document.getElementById('cc-expiration').disabled=true
     else
         document.getElementById('cc-expiration').disabled=false
@@ -37,10 +46,9 @@ function checkifempty(){
 setInterval("checkifempty()",100)
 
 function checkifempty(){
-    if (document.getElementById('billinglastName').value=='')
+    if (document.getElementById('shippinglastName').value=='')
         document.getElementById('cc-cvv').disabled=true
     else
         document.getElementById('cc-cvv').disabled=false
 }
 setInterval("checkifempty()",100)
-
