@@ -24,13 +24,16 @@ function addressFunction()
         document.getElementById('billingCountry').value = '';
         document.getElementById('billingState').value = '';
         document.getElementById('billingCity').value = '';
-        document.getElementById('billingZip').value = '';
-
-
-
-
-
-        
+        document.getElementById('billingZip').value = '';       
 }  
 } 
+
+function checkifempty(){
+    if (document.getElementById('billingfirstName').value=='')
+        document.getElementById('cc-expiration').disabled=true
+    else
+        document.getElementById('cc-expiration').disabled=false
+}
+setInterval("checkifempty()",100)
+
 
