@@ -1,0 +1,50 @@
+.modal .modal-title {
+    text-align: center !important;
+    font-family: 'Muli', sans-serif !important;
+    font-weight: 700;
+}
+.modal .lead {
+    font-family: 'Muli', sans-serif !important;
+    color: black;
+    font-weight:500;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Muli', sans-serif !important;
+}
+.navbar .nav-link {
+    font-family: 'Muli', sans-serif !important;
+}
+.btn-primary {
+    color:#FFFFFF;
+    background-color: #e2902b;
+    font-family: 'Muli', sans-serif !important
+
+}
+.display-4 {
+    font-family: 'Muli', sans-serif !important;
+    color: #FFFFFF
+}
+.footer {
+    background-color: #e2902b
+}
+
+.lead {
+    font-family: 'Muli', sans-serif !important;
+    color: #FFFFFF
+}
+
+.charities {
+    font-family: 'Muli', sans-serif !important;
+    font-weight: 700;
+}
+
+.card .card-title {
+    font-family: 'Muli', sans-serif !important;
+    font-weight: 700;
+
+}
+
+.card .card-text {
+    font-family: 'Muli', sans-serif !important;
+}

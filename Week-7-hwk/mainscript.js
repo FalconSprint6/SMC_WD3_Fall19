@@ -24,6 +24,7 @@ $(window).on('load', function(){
     });
 
     $('#myModal').modal({
-        keyboard: false
+        keyboard: false,
+        backdrop: 'static',
     });
 }) 

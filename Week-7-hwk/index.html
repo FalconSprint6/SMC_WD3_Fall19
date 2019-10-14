@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet">
     <title>Home Page</title>
 </head>
 
@@ -68,7 +69,7 @@
         </div>
 
         <div class="container text-center">
-            <h2>We work with over 20 charities worldwide</h2>
+            <h2 class="charities">We work with over 20 charities worldwide</h2>
             <br>
             <div class="row">
                 <div class="col-md-4">
@@ -84,7 +85,7 @@
             </div>
             <br>
             <br>
-            <h2>Come find out what we're all about</h2>
+            <h2 class="charities">Come find out what we're all about</h2>
             <br>
             <div class="card-deck">
                 <div class="card" style="width: 18rem;">
@@ -120,6 +121,9 @@
         <br>
         <br>
         <footer>
+            <div class="stripe">
+                <br>
+            </div>
             <div class="footer">
                 <br>
                 <br>
@@ -132,20 +136,22 @@
     </main>
     <div class="modal" tabindex="-1" role="dialog" id="myModal">
         <div class="modal-dialog" role="document">
-            <div class="modal-content ">
+            <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Get the latest news on all we do!</h5>
                 </div>
                 <div class="modal-body">
                         <form>
                                 <div class="form-group">
-                                    <lead>Give us your email address so you can see the awesome stuff on this site</lead>
+                                    <lead class="lead" name="modal-lead">Give us your email address so you can see the awesome stuff on this site</lead>
                                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                  <small id="emailHelp" class="form-text text-muted">(Except maybe third party companies and the US government)</small>
+                                  <small id="emailHelp" class="form-text text-muted">(Except maybe third party companies and US government agencies)</small>
                                 </div>
+                                <div class="text-center">
                                 <button type="submit" class="btn btn-primary" data-dismiss="modal">Let me in!</button>
-                              </form>
+                              </div>
+                            </form>
                 </div>
 
             </div>
