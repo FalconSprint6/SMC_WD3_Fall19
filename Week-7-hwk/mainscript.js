@@ -19,10 +19,6 @@ $(document).ready(function(){
 })
 
 $(window).on('load', function(){
-    $('#myCarousel').carousel({
-        interval: 200
-    });
-
     $('#myModal').modal({
         keyboard: false,
         backdrop: 'static',

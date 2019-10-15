@@ -73,8 +73,15 @@
     font-family: 'Muli', sans-serif !important;
 }
 
-.card-img-top {
+/*team card*/
+.ccard-img-top{
     width: 100%;
-    height: 25vw;
+    height: 350px;
     object-fit: cover;
 }
+
+.team-sub {
+    font-family: 'Muli', sans-serif !important;
+    text-align: center !important;
+}
+
