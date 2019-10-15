@@ -1,3 +1,7 @@
+/*Modal*/
+.modal-dialog {
+    border-color: #e2902b !important;
+}
 .modal .modal-title {
     text-align: center !important;
     font-family: 'Muli', sans-serif !important;
@@ -9,13 +13,14 @@
     font-weight:500;
 }
 
-
+/*navbar*/
 .navbar .navbar-brand {
     font-family: 'Muli', sans-serif !important;
 }
 .navbar .nav-link {
     font-family: 'Muli', sans-serif !important;
 }
+/*buttons*/
 .btn-primary {
     color:#FFFFFF;
     background-color: #e2902b;
@@ -35,8 +40,12 @@
     font-family: 'Muli', sans-serif !important;
     color: #FFFFFF
 }
+
 .footer {
     background-color: #e2902b
+}
+.footer-logo {
+    font-family: 'Muli', sans-serif !important;
 }
 
 .lead {
@@ -54,7 +63,7 @@
     font-weight: 700;
 
 }
-
+/*home card*/
 .card .card-text {
     font-family: 'Muli', sans-serif !important;
 }
@@ -65,7 +74,7 @@
     border-radius: 25px !important;
 }
 
-#bottom-nav {
+.footer .nav {
     color: #FFFFFF !important;
 }
 

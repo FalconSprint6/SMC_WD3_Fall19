@@ -24,3 +24,9 @@ $(window).on('load', function(){
         backdrop: 'static',
     });
 }) 
+
+
+document.getElementById("submit").addEventListener("click", function() {
+  alert.getElementById("submitalert");
+});
+
