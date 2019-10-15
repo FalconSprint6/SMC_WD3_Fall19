@@ -9,6 +9,7 @@
     font-weight:500;
 }
 
+
 .navbar .navbar-brand {
     font-family: 'Muli', sans-serif !important;
 }
@@ -18,9 +19,18 @@
 .btn-primary {
     color:#FFFFFF;
     background-color: #e2902b;
-    font-family: 'Muli', sans-serif !important
-
+    font-family: 'Muli', sans-serif !important;
+    border-color: #e2902b !important;
 }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    background-color:#e39b44 !important;
+    color: #FFFFFF !important;
+    border-color: #e2902b !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
 .display-4 {
     font-family: 'Muli', sans-serif !important;
     color: #FFFFFF
@@ -46,5 +56,19 @@
 }
 
 .card .card-text {
+    font-family: 'Muli', sans-serif !important;
+}
+
+.card {
+    border-color: #e2902b !important;
+    border-width: medium !important;
+    border-radius: 25px !important;
+}
+
+#bottom-nav {
+    color: #FFFFFF !important;
+}
+
+.footer-logo {
     font-family: 'Muli', sans-serif !important;
 }
