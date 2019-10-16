@@ -26,7 +26,22 @@ $(window).on('load', function(){
 }) 
 
 
-document.getElementById("submit").addEventListener("click", function() {
-  alert.getElementById("submitalert");
-});
+$('input').blur(function(){
+        
 
+    if($(this).val() !== ""){
+        var form  = $(this).parents('form');
+        console.log($("[type=submit]"));
+        $("[type=submit]").removeClass('disabled').removeAttr('disabled').data('dismiss', 'modal');
+    }
+})
+
+$('.modal form').submit(function(e){
+    e.preventDefault();
+})
+$(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar-fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
