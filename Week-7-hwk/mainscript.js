@@ -41,7 +41,7 @@ $('.modal form').submit(function(e){
 })
 $(function () {
     $(document).scroll(function () {
-      var $nav = $(".navbar-fixed-top");
+      var $nav = $(".navbar");
       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
   });

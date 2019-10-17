@@ -14,6 +14,7 @@
 }
 
 /*navbar*/
+
 .navbar .navbar-brand {
     font-family: 'Muli', sans-serif !important;
 }
@@ -98,3 +99,9 @@
 .display-3 {
     font-size: 3rem !important;
 }
+
+.navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  
