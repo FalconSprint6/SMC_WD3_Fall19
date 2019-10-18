@@ -16,17 +16,17 @@
 <body>
     <main>
         <!--navigation bar-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="mynav">
             <!-- Image and text -->
-            <nav class="navbar navbar-light bg-white">
+    
                 <a class="navbar-logo mr-2" href="index.html">
                     <img src="images/sextant.png" width="45" height="45" class="d-inline-block align-top" alt="">
                 </a>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" id="navbar-brand" href="index.html">
                     Sextant International
                 </a>
-            </nav>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
@@ -48,87 +48,62 @@
             </div>
         </nav>
         <!--Jumbotron-->
-        <div class="jumbotron jumbotron-fluid py-5 py-md mb-5"
-            style="background-image: url('images/signal-hill.jpg'); center no repeat; background-size: cover">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="container text-center">
-                <h1 class="display-4">We help the world find its way</h1>
-                <p class="lead">Sextant International is commited to having those less fortunate have access to GPS
+        <div class="jumbotron jumbotron-fluid py-5">
+            <div class="container text-center py-5">
+                <h1 class="display-4 pt-5 pb-1">We help the world find its way</h1>
+                <p class="lead pt-1 pb-2">Sextant International is commited to having those less fortunate have access to GPS
                     devices</p>
-                <br>
-                <br>
-                <a class="btn btn-primary" href="#">Learn More</a>
+                <a class="btn btn-primary mb-5" href="#">Learn More</a>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
         </div>
 
-        <div class="container text-center">
-            <h2 class="charities">We work with over 20 charities worldwide</h2>
-            <br>
-            <br>
+        <div class="container text-center" id="startchange">
+            <h2 class="charities mt-1 mb-2">We work with over 20 charities worldwide</h2>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-6 col-lg-4">
                     <img class="pt-4" src="images/habitat-for-humanity.png" alt="Habitat for Humanity Logo"
                         height="150">
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-6 col-lg-4">
                     <img class="pt-4" src="images/red cross.png" height="150" alt="Red Cross Logo">
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-6 col-lg-4">
                     <img class="pt-4" src="images/salvation-army.png" height="150" alt="Salvation Army Logo">
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-6 col-lg-4">
                     <img class="pt-4" src="images/unicef.png" height="150" alt="Unicef Logo">
                  </div>
-                 <div class="col-md-4">
+                 <div class="col-sm-6 col-lg-4">
                      <img class="pt-4" src="images/kars-4-kids.jpg" height="150" alt="Kars 4 Kids Logo">
                  </div>
-                 <div class="col-md-4">
+                 <div class="col-sm-6 col-lg-4">
                      <img class="pt-4" src="images/polloloco.jpg" height="150" alt="El Pollo Loco Logo">
                  </div>
             </div>
-            <br>
-            <br>
-            <h2 class="charities">Come find out what we're all about</h2>
-            <br>
-            <br>
+            <h2 class="charities mt-5 mb-4">Come find out what we're all about</h2>
             <div class="card-deck">
-                <div class="card" style="width: 18rem;">
+                <div class="card mb-5">
                     <br>
                     <h5 class="card-title">About Us</h5>
-                    <img src="images/sextant-sm.jpg" class="card-img-top" alt="Sextant Logo" height="230">
+                    <img src="images/sextant-sm.jpg" class="card-img-top" alt="Sextant Logo">
                     <div class="card-body">
                         <p class="card-text">How we started and what we are.</p>
                         <a href="about.html" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card mb-5">
                     <br>
                     <h5 class="card-title">Our Services</h5>
-                    <img src="images/Capture.jpg" class="card-img-top" alt="Sextant Logo" height="230" width="50">
+                    <img src="images/Capture.jpg" class="card-img-top" alt="Sextant Logo">
                     <div class="card-body">
                         <p class="card-text">What we do and who we help.</p>
                         <a href="services.html" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card mb-5">
                     <br>
                     <h5 class="card-title">Our Team</h5>
-                    <img src="images/volunteers.webp" class="card-img-top" alt="Blue shirted volunteers taking a selfie"
-                        height="230">
+                    <img src="images/volunteers.webp" class="card-img-top pb-1" alt="Blue shirted volunteers taking a selfie">
                     <div class="card-body">
                         <p class="card-text">Who makes us up</p>
                         <a href="team.html" class="btn btn-primary">Learn More</a>
@@ -136,28 +111,26 @@
                 </div>
             </div>
         </div>
-        <br>
-        <br>
         <footer>
             <div class="footer">
                 <div class="container">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-6">
                         <h4 class="footer-logo mt-3 ml-5 mb-3">Sextant International</h4>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-6" id="footernavs">
                             <ul class="nav mt-2">
                                     <li class="nav-item">
-                                      <a class="nav-link" href="index.html">Home</a>
+                                      <a class="nav-link" id="bottomnav" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link" href="about.html">About Us</a>
+                                      <a class="nav-link" id="bottomnav" href="about.html">About</a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link" href="services.html">Our Services</a>
+                                      <a class="nav-link" id="bottomnav" href="services.html">Services</a>
                                     </li>
                                     <li class="nav-item">
-                                            <a class="nav-link" href="team.html">Our Team</a>
+                                            <a class="nav-link" id="bottomnav" href="team.html">Team</a>
                                           </li>
                                   </ul>
                     </div>
@@ -194,7 +167,6 @@
                                   <small id="emailHelp" class="form-text text-muted text-left">We'll never share your email with anyone else.</small>
                                   <small id="emailHelp" class="form-text text-muted text-left">(Except maybe third party companies and US government agencies)</small>
                                 </div>
-                                
                                 <div class="text-center">
                                 <button type="submit" class="btn btn-primary" id="submit" data-dismiss="modal">Let me in!</button>
                               </div>

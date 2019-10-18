@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
 
     $('#myCarousel').on('slide.bs.carousel', function (e) {
@@ -7,41 +7,54 @@ $(document).ready(function(){
 
 
 
-    $('.js-modal-close').click(function(){
+    $('.js-modal-close').click(function () {
         $('.alert').addClass('show');
         $('.alert').alert();
 
-        if( true ){
+        if (true) {
             $("#myModal").modal('hide');
         }
     })
 
+    $('input').blur(function () {
+        if ($(this).val() !== "") {
+            var form = $(this).parents('form');
+            console.log($("[type=submit]"));
+            $("[type=submit]").removeClass('disabled').removeAttr('disabled').data('dismiss', 'modal');
+        }
+    })
+
+    $('.modal form').submit(function (e) {
+        e.preventDefault();
+    })
+
+
+
 })
 
-$(window).on('load', function(){
+$(window).on('load', function () {
     $('#myModal').modal({
         keyboard: false,
         backdrop: 'static',
     });
-}) 
+})
 
-
-$('input').blur(function(){
-        
-
-    if($(this).val() !== ""){
-        var form  = $(this).parents('form');
-        console.log($("[type=submit]"));
-        $("[type=submit]").removeClass('disabled').removeAttr('disabled').data('dismiss', 'modal');
+var scroll_start = 0;
+    var startchange = $('#startchange');
+    var offset = startchange.offset();
+    if (startchange.length){
+        $(document).scroll(function() { 
+            scroll_start = $(document).scrollTop();
+            if(scroll_start > offset.top) {
+                $(".navbar").css('background-color', 'white');
+                $('.nav-link').css('color', 'black');
+                $('.navbar-brand').css('color', 'black');
+                $('.navbar-collapse').css('color', 'black');
+            } else {
+                $('.navbar').css('background-color', 'transparent');
+                $('.nav-link').css('color', 'white');
+                $('.navbar-brand').css('color', 'white');
+                $('.navbar-collapse').css('color', 'white');
+            }
+        });
     }
-})
-
-$('.modal form').submit(function(e){
-    e.preventDefault();
-})
-$(function () {
-    $(document).scroll(function () {
-      var $nav = $(".navbar");
-      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-    });
-  });

@@ -20,7 +20,36 @@
 }
 .navbar .nav-link {
     font-family: 'Muli', sans-serif !important;
+    color: white;
 }
+
+
+.navbar {
+    background-color: transparent ;
+    border-color: transparent ;
+    -webkit-transition: background-color .2s; 
+    transition: background-color .2s; 
+}
+
+
+.navbar-collapse .navbar-nav {
+    color: white;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(226,144,43);
+    border-width: .1em;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(226,144,43, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*all other pages nav links (besides Home)*/
+ #navlink {
+    font-family: 'Muli', sans-serif !important;
+    color: black !important;
+}
+/*end other pages nav links*/
+
 /*buttons*/
 .btn-primary {
     color:#FFFFFF;
@@ -36,17 +65,38 @@
     box-shadow: none !important;
 }
 
+/*jumbotron*/
+.jumbotron {
+    background-image: url('images/signal-hill.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+}
 
 .display-4 {
     font-family: 'Muli', sans-serif !important;
     color: #FFFFFF
 }
 
+/*footer*/
+
 .footer {
     background-color: #e2902b
 }
 .footer-logo {
     font-family: 'Muli', sans-serif !important;
+}
+
+#bottomnav {
+    color: black !important;
+}
+#bottomnav:hover, #bottomnav:active, #bottomnav.active {
+    font-family: 'Muli', sans-serif !important;
+    color: whitesmoke !important;
+}
+
+#footernavs {
+    justify-content: flex-end !important;
 }
 
 .lead {
@@ -83,6 +133,10 @@
     font-family: 'Muli', sans-serif !important;
 }
 
+#footernavs {
+    justify-content: end !important;
+}
+
 /*team card*/
 .ccard-img-top{
     width: 100%;
@@ -95,13 +149,14 @@
     text-align: center !important;
 }
 
+
 /*about us*/
 .display-3 {
     font-size: 3rem !important;
 }
 
-.navbar.scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
-  }
-  
+
+/*about page*/
+
+
+
