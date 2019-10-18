@@ -14,6 +14,10 @@
     <title>Home Page</title>
 </head>
 <body>
+    
+        
+        
+
     <main>
         <!--navigation bar-->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="mynav">
@@ -47,8 +51,17 @@
                     </li>
             </div>
         </nav>
+        
         <!--Jumbotron-->
         <div class="jumbotron jumbotron-fluid py-5">
+            <!--alert appears inside jumbotron-->
+            <div class="alert alert-warning alert-dismissible fade hidden" role="alert" id="submitalert">
+            <strong>Nice!</strong> Thanks for giving us your email.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!--end alert-->
             <div class="container text-center py-5">
                 <h1 class="display-4 pt-5 pb-1">We help the world find its way</h1>
                 <p class="lead pt-1 pb-2">Sextant International is commited to having those less fortunate have access to GPS
@@ -143,13 +156,7 @@
 
     </main>
 
-    <div class="alert alert-warning alert-dismissible fade show" role="alert" id="submitalert">
-            <strong>Nice!</strong> Thanks for giving us your email.
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-
+    
     <div class="modal" tabindex="-1" role="dialog" id="myModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

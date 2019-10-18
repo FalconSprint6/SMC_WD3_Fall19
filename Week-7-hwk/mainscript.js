@@ -58,3 +58,7 @@ var scroll_start = 0;
             }
         });
     }
+
+    $('#myModal').on('hidden.bs.modal', function () {
+        $("#submitalert").addClass('show')
+      })

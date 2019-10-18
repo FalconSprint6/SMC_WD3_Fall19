@@ -152,6 +152,11 @@
     text-align: center !important;
 }
 
+.team-header {
+    font-family: 'Muli', sans-serif !important;
+    font-weight: 700;
+}
+
 
 /*about us*/
 .display-3 {
@@ -162,5 +167,10 @@
 /*service page*/
 .bodycopy {
     font-family: 'Muli', sans-serif !important;
+}
+
+.alert-warning {
+    margin-bottom: 0;
+    margin-top: 3;
 }
 
