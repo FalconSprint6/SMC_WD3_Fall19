@@ -17,7 +17,7 @@
 <body>
     <main>
         <!--navigation bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="whiteNav">
             <!-- Image and text -->
 
             <a class="navbar-logo mr-2" href="index.html">
@@ -27,7 +27,7 @@
                 Sextant International
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,16 +35,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" id="navlink" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" id="navlink" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
+                        <a class="nav-link" id="navlink" href="services.html">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="team.html">Team</a>
+                        <a class="nav-link" id="navlink" href="team.html">Team</a>
                     </li>
             </div>
         </nav>
@@ -71,6 +71,36 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </div>
+
+        <!--Body Copy and Header-->
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                <h1 class="charities my-3">We go where we're needed</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="bodycopy">At Sextant International, we are made of a broad amount of individuals who want to do things. We go around the world and partner with many different charities to give life saving GPS equipment to those who need it most. Are you still reading? I'm gonna copy paste the wikipedia entry on GPS's now. The Global Positioning System (GPS), originally NAVSTAR GPS,[1] is a satellite-based radionavigation system owned by the United States government and operated by the United States Air Force.[2] It is a global navigation satellite system (GNSS) that provides geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites.[3] Obstacles such as mountains and buildings block the relatively weak GPS signals.
+
+                            The GPS does not require the user to transmit any data, and it operates independently of any telephonic or internet reception, though these technologies can enhance the usefulness of the GPS positioning information. The GPS provides critical positioning capabilities to military, civil, and commercial users around the world. The United States government created the system, maintains it, and makes it freely accessible to anyone with a GPS receiver.[4]
+                            
+                            </p>
+                </div>
+                <div class="col-md-6">
+                        <p class="bodycopy">
+                            The GPS project was started by the U.S. Department of Defense in 1973, with the first prototype spacecraft launched in 1978 and the full constellation of 24 satellites operational in 1993. Originally limited to use by the United States military, civilian use was allowed from the 1980s. Advances in technology and new demands on the existing system have now led to efforts to modernize the GPS and implement the next generation of GPS Block IIIA satellites and Next Generation Operational Control System (OCX).[5] Announcements from Vice President Al Gore and the White House in 1998 initiated these changes. In 2000, the U.S. Congress authorized the modernization effort, GPS III. During the 1990s, GPS quality was degraded by the United States government in a program called "Selective Availability"; this was discontinued in May 2000 by a law signed by President Bill Clinton.[6]
+                </p>
+                <hr>
+                <p class="bodycopy">
+                        When selective availability was lifted in 2000, GPS had about a five-meter (16 ft) accuracy. The latest stage of accuracy enhancement uses the L5 band and is now fully deployed. GPS receivers released in 2018 that use the L5 band can have much higher accuracy, pinpointing to within 30 centimetres or 11.8 inches.[11][12]
+                </p>
+            </div>
+            </div>
         </div>
 
         <footer>
