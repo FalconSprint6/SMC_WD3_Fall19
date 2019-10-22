@@ -25,7 +25,8 @@ $(document).ready(function () {
     })
 
     $('.modal form').submit(function (e) {
-        e.preventDefault();
+        e.preventDefault(); 
+        $('#myModal').modal('hide')
     })
 
 
@@ -62,3 +63,5 @@ var scroll_start = 0;
     $('#myModal').on('hidden.bs.modal', function () {
         $("#submitalert").addClass('show')
       })
+
+     
