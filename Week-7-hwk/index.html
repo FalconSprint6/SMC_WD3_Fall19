@@ -55,7 +55,7 @@
         <!--Jumbotron-->
         <div class="jumbotron jumbotron-fluid py-5">
             <!--alert appears inside jumbotron-->
-            <div class="alert alert-warning alert-dismissible fade hidden" role="alert" id="submitalert">
+            <div class="alert alert-warning alert-dismissible fade hidden mt-2" role="alert" id="submitalert">
             <strong>Nice!</strong> Thanks for giving us your email.
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -125,32 +125,31 @@
             </div>
         </div>
         <footer>
-            <div class="footer">
-                <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h4 class="footer-logo mt-3 ml-5 mb-3">Sextant International</h4>
-                    </div>
-                    <div class="col-md-6" id="footernavs">
-                            <ul class="nav mt-2">
+                <div class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="footer-logo text-center text-md-left mt-3">Sextant International</h4>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="nav mt-2 mb-2 justify-content-center justify-content-md-end">
                                     <li class="nav-item">
-                                      <a class="nav-link" id="bottomnav" href="index.html">Home</a>
+                                        <a class="nav-link" id="bottomnav" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link" id="bottomnav" href="about.html">About</a>
+                                        <a class="nav-link" id="bottomnav" href="about.html">About</a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link" id="bottomnav" href="services.html">Services</a>
+                                        <a class="nav-link" id="bottomnav" href="services.html">Services</a>
                                     </li>
                                     <li class="nav-item">
-                                            <a class="nav-link" id="bottomnav" href="team.html">Team</a>
-                                          </li>
-                                  </ul>
+                                        <a class="nav-link" id="bottomnav" href="team.html">Team</a>
+                                    </li>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            </div>
-        </footer>
+            </footer>
 
 
 
@@ -174,6 +173,10 @@
                                   <small id="emailHelp" class="form-text text-muted text-left">We'll never share your email with anyone else.</small>
                                   <small id="emailHelp" class="form-text text-muted text-left">(Except maybe third party companies and US government agencies)</small>
                                 </div>
+                                <div class="custom-control custom-checkbox mb-3 text-left">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">I agree to have spam email sent to me</label>
+                                      </div>
                                 <div class="text-center">
                                 <button type="submit" class="btn btn-primary disabled" id="submit" tabindex="-1" disabled>Let me in!</button>
                               </div>
