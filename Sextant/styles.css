@@ -13,7 +13,7 @@
     font-weight:500;
 }
 
-.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+.custom-switch .custom-control-input:checked~.custom-control-label::before{
     background-color:#e2902b;
     border-color: #e2902b;
   }
