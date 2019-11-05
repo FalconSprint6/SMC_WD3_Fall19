@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    background-image: radial-gradient(circle farthest-side at 5%, white , #1b062f 75%);
+    background-image: radial-gradient(ellipse at 42%, white , #1b062f 75%);
     position: relative;
     /*animation: backgroundAnim 5s infinite;*/
 }
@@ -21,13 +21,31 @@ html {
     0% {
         height: 0px;
         width: 0px;
+        margin-top: 300px;
+margin-bottom: 300px;
+margin-left:400px;
+margin-right:250px;
+    }
+
+    50% {
+        height: 200px;
+        width: 400px;
+margin-top: 300px;
+margin-bottom: 300px;
+margin-left:400px;
+margin-right:250px;
     }
 
     100% {
         height: 200px;
         width: 400px;
-
+margin-top: 300px;
+margin-bottom: 300px;
+margin-left:400px;
+margin-right:250px;
+transform: rotate(360deg)
     }
+
 }
 
 @keyframes backgroundAnim {
