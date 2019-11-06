@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Canvas and SVGs</title>
 </head>
 <body>
     
@@ -14,6 +14,24 @@
         </circle> 
         <rect x="150" y="150" width="50" height="50" style="fill: aliceblue; stroke-width:3px"></rect>
     </svg>
+
+<canvas width="500" height="500" id="myCanvas">
+This webpage uses HTML canvas - please load in a newer browser
+</canvas>
+
+<script>
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext('2d');
+
+ctx.fillstyle = "#959595";
+ctx.fillRect(0,0, canvas.width, canvas.height)
+
+ctx.fillstyle = "#FF00FF";
+ctx.fillRect (100,100,200,100);
+
+ctx.fillstyle = "#0000FF";
+ctx.fillRect (300,300,200,100);
+</script>
 
 </body>
 </html>
