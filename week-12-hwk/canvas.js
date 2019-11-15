@@ -58,5 +58,8 @@ canvas.addEventListener("click", function(event){
 
     if(distX < ballRadius && distY < ballRadius){
         console.log('FIRE!!!!!!');
+       directionDown = !directionDown;
+       directionRight = !directionRight;
     }
 })
+
