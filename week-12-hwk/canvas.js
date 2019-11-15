@@ -12,6 +12,7 @@ var speedY = 3;
 var directionDown = true;
 var directionRight = true;
 
+
 function animate(){
     ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -60,6 +61,8 @@ canvas.addEventListener("click", function(event){
         console.log('FIRE!!!!!!');
        directionDown = !directionDown;
        directionRight = !directionRight;
+       var score = parseInt(document.getElementById("score").innerHTML);
+       score++;
+       document.getElementById("score").innerHTML = score;
     }
 })
-
