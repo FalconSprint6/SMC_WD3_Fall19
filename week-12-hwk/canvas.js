@@ -4,6 +4,7 @@ var ctx = canvas.getContext("2d");
 var ballX = canvas.width/2;
 var ballY = canvas.height/2;
 var ballColor = 'rgb(0, 155, 155)';
+var ballColor2 = 'rgb(0, 250, 100)';
 var ballRadius = 50;
 
 var speedX = 5;
@@ -65,4 +66,15 @@ canvas.addEventListener("click", function(event){
        score++;
        document.getElementById("score").innerHTML = score;
     }
+})
+
+$("#color").click(function(){
+    if(ctx.fillStyle = ballColor){
+        ctx.fillStyle = ballColor2;
+        console.log("is this thing working?")
+    }
+    else {
+        ctx.fillStyle = ballColor
+    }
+
 })
