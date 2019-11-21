@@ -1,0 +1,79 @@
+.bg-dark {
+    color: black;
+    background-color: black !important;
+    
+}
+
+.bg-dark li a {
+    font-family: 'Roboto', sans-serif;
+    color:	#B3946F !important
+}
+
+.jumbotron-fluid {
+    text-align:center !important
+}
+
+.heading {
+    color: #B3946F !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subhead {
+    color:#B3946F !important
+}
+.subsubhead {
+    color: #B3946F;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    border-color: #B3946F !important;
+    background-color: transparent !important
+}
+.card-title {
+    color: #EBBB7E !important;
+    font-family: 'Roboto', sans-serif !important
+}
+.btn-primary {
+    color: #EBBB7E !important;
+    border-color: #031853 !important;
+    background-color: #031853 !important;
+    font-family: 'Roboto', sans-serif !important
+}
+.table-light{
+    opacity: .6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table .year {
+color: #EBBB7E;
+font-family: 'Roboto', sans-serif;
+}
+.table .units {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-white {
+    font-family: 'Domine', serif;
+}
+
+.carousel-header {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.carousel-p {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.card-title {
+    font-size: 1.2em 
+}
+
+.card-text {
+    font-size: .8em
+}
+
+
