@@ -76,4 +76,10 @@ font-family: 'Roboto', sans-serif;
     font-size: .8em
 }
 
+.iframe {
+    border-color: #B3946F !important;
+}
 
+.video {
+    border-color: #B3946F !important;
+}
