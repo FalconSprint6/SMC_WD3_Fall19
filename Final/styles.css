@@ -1,0 +1,27 @@
+/* inside navbaar text when hovered */
+a:hover, span.a:hover {
+    color: green !important;
+    text-decoration: none;
+}
+/* inside navbaar text normal */
+a, span.a {
+    transition: all 0.1s ease-in-out;
+    color: orange !important;
+    cursor: pointer;
+}
+/* subhead nav text normal*/
+
+.h__header, .h__h1, .h__h1--loud, .h__h1--hero, .h__h1--sm, .h__h2--primary, .h__h2--loud, .h__h2--sm, .h__h2--secondary, .h__h3, .h__h3--loud, .h__h3--secondary--sm, .h__h3--primary--sm, .h__h4, .h__h4--loud {
+    color: grey !important;
+}
+
+/* navbar icons */
+
+.m-head__site-nav--menu.active .m-head__nav-icon {
+    color: orange !important;
+}
+
+#shopNow {
+    color: white !important;
+    background-color: orange !important;
+}
