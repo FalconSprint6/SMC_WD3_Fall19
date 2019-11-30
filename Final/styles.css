@@ -6,7 +6,7 @@ a:hover, span.a:hover {
 /* inside navbaar text normal */
 a, span.a {
     transition: all 0.1s ease-in-out;
-    color: orange !important;
+    color: #ffbd2e !important;
     cursor: pointer;
 }
 /* subhead nav text normal*/
@@ -18,10 +18,46 @@ a, span.a {
 /* navbar icons */
 
 .m-head__site-nav--menu.active .m-head__nav-icon {
-    color: orange !important;
+    color: #ffbd2e !important;
 }
 
-#shopNow {
+/* button text*/
+
+.btn {
     color: white !important;
-    background-color: orange !important;
+    background-color: #ffbd2e !important;
+}
+
+/* shopping cart */
+.tp-cart:hover {
+    transform: rotate(-25deg) !important;
+}
+
+/* carousel caption */
+.carH5 {
+    color: #ffbd2e !important;
+    text-shadow: 2px !important;
+}
+
+.carP {
+    color: white !important;
+    text-shadow: 2px !important;
+}
+
+.carousel-control-next-icon {
+    color: black !important;
+
+}
+
+/* cards */
+
+.card-title {
+
+color:grey !important;
+}
+
+/* footer */
+
+.footerH {
+    color: #ffbd2e !important;
 }
