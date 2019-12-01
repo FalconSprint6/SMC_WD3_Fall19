@@ -46,21 +46,76 @@ $('shippingState').change(function(){
 })
 
 
-function checkifempty(){
+
+/*--Payment Enable--*/
+
+function checkifemptycr(){
+        if (document.getElementById('billinglastName').value=='' && document.getElementById('billingfirstName').value==''  && document.getElementById('billingAddress').value=='')
+            document.getElementById('credit').disabled=true
+        else
+            document.getElementById('credit').disabled=false    
+    }
+    setInterval("checkifemptycr()",100);//credit enable
+
+    function checkifemptydb(){
+        if (document.getElementById('billinglastName').value=='' && document.getElementById('billingfirstName').value==''  && document.getElementById('billingAddress').value=='')
+            document.getElementById('debit').disabled=true
+        else
+            document.getElementById('debit').disabled=false    
+    }
+    setInterval("checkifemptydb()",100);//debit enable
+
+    function checkifemptypp(){
+        if (document.getElementById('billinglastName').value=='' && document.getElementById('billingfirstName').value==''  && document.getElementById('billingAddress').value=='')
+            document.getElementById('paypal').disabled=true
+        else
+            document.getElementById('paypal').disabled=false    
+    }
+    setInterval("checkifemptypp()",100);//debit enable
+
+
+function checkifemptynam(){
+        if (document.getElementById('billinglastName').value=='' && document.getElementById('billingfirstName').value==''  && document.getElementById('billingAddress').value=='')
+            document.getElementById('cc-name').disabled=true
+        else
+            document.getElementById('cc-name').disabled=false    
+    }
+    setInterval("checkifemptynam()",100);//name enable
+
+
+function checkifemptynum(){
+        if (document.getElementById('billinglastName').value=='' && document.getElementById('billingfirstName').value==''  && document.getElementById('billingAddress').value=='')
+            document.getElementById('cc-number').disabled=true
+        else
+            document.getElementById('cc-number').disabled=false    
+    }
+    setInterval("checkifemptynum()",100);//number enable
+
+function checkifemptyex(){
         if (document.getElementById('billinglastName').value=='' && document.getElementById('billingfirstName').value==''  && document.getElementById('billingAddress').value=='')
             document.getElementById('cc-expiration').disabled=true
         else
             document.getElementById('cc-expiration').disabled=false    
     }
-    setInterval("checkifempty()",100);//cvv enable
+    setInterval("checkifemptyex()",100);//expiration enable
 
-function checkifempty(){
+function checkifemptycc(){
     if (document.getElementById('billinglastName').value=='' && document.getElementById('billingfirstName').value==''  && document.getElementById('billingAddress').value=='')
         document.getElementById('cc-cvv').disabled=true
     else
         document.getElementById('cc-cvv').disabled=false    
 }
-setInterval("checkifempty()",100);//cvv enable
+setInterval("checkifemptycc()",100);//cvv enable
+
+function checkifemptysb(){
+        if (document.getElementById('billinglastName').value=='' && document.getElementById('billingfirstName').value==''  && document.getElementById('billingAddress').value=='')
+            document.getElementById('submitC').disabled=true
+        else
+            document.getElementById('submitC').disabled=false    
+    }
+    setInterval("checkifemptysb()",100);//submit enable
+
+//end payment enable//
 
 function something() {
         'use strict';
