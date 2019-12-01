@@ -12,7 +12,6 @@
     <link rel="stylesheet" media="all"
         href="https://assets.teepublic.com/assets/application-c3fdcf06c12a85c46c248bec998ca3f30c75d7f9b05ed121084ace971de2cd5f.css" />
         <link rel="stylesheet" media="all" href="styles.css"/>
-        <script src="script.js"></script>
     <title>Homepage</title>
 </head>
 <!-- Side Nav that doesnt work-->
@@ -161,14 +160,6 @@
                 </nav>
             </div>
         </div>
-        <form id="applepay_form" action="/checkout/applepay" accept-charset="UTF-8" method="post"><input name="utf8"
-                type="hidden" value="✓"><input type="hidden" name="authenticity_token"
-                value="bEYcsYtrfqv+AVwGeBOT//42kkeaQN4hBE2XcatR3O5UfYjIZsQNam4UH+A3QBXvSR8I3RHffs0DFNF5pcCbpw=="><input
-                type="hidden" name="applepay_nonce" id="applepay_nonce"><input type="hidden" name="applepay_address"
-                id="applepay_address"><input type="hidden" name="applepay_shipping" id="applepay_shipping"><input
-                type="hidden" name="checkout[payment_option]" id="checkout_payment_option" value="ApplePay"></form>
-
-
         <div class="m-head__tagline">
             <div class="contain m-head__tagline-cont">
                 <a class="link" href="#" target="_blank">
@@ -181,7 +172,7 @@
             <div class="m-head__subnav">
                 <div class="m-head__subnav-menu m-head__browse jsDropdown jsDropdownTouch">
                     <a class="h__h3--loud link link--2 gtmHeaderLink" data-gtm-header-link-text="Browse"
-                        href="/t-shirts">Browse</a>
+                        href="/t-shirts" id="nav1">Browse</a>
                     <div class="m-head__dropdown-arrow"></div>
                     <div class="m-head__dropdown jsDropdownContent">
                         <nav class="m-head__dropdown-links jsDropdownLinks">
@@ -196,14 +187,14 @@
                         </nav>
                     </div>
                 </div>
-                <div class="m-head__subnav-menu jsDropdown jsDropdownTouch">
-                    <a class="h__h3--loud link link--2" href="#">Cat Shaped Mugs</a>
+                <div class="m-head__subnav-menu jsDropdown jsDropdownTouch" >
+                    <a class="h__h3--loud link link--2" href="#" id="nav2">Cat Shaped Mugs</a>
                 </div>
                 <div class="m-head__subnav-menu jsDropdown jsDropdownTouch">
-                    <a class="h__h3--loud link link--2" href="#">Cat Print Mugs</a>
+                    <a class="h__h3--loud link link--2" href="#" id="nav3">Cat Print Mugs</a>
                 </div>
                 <div class="m-head__subnav-menu jsDropdown jsDropdownTouch">
-                    <a class="h__h3--loud link link--2" href="#">Pusheen Mugs</a>
+                    <a class="h__h3--loud link link--2" href="#" id="nav3">Pusheen Mugs</a>
                 </div>
             </div>
         </nav>
@@ -268,7 +259,7 @@
                                 <div class="card-body">
                                   <h3 class="card-title">Don't Care Cat Mug</h3>
                                   <h2 class="card-text">$5.99</h2>
-                                  <a href="#" class="btn btn-primary">Go to Page</a>
+                                  <a href="product1.html" class="btn btn-primary">Go to Page</a>
                                   <a href="#" class="btn btn-primary">Add to Cart</a>
                                 </div>
                               </div>
@@ -278,6 +269,28 @@
                                 <img src="images/home-card-2.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h3 class="card-title">French Cat Mug</h3>
+                                  <h2 class="card-text">$5.99</h2>
+                                  <a href="product2.html" class="btn btn-primary">Go to Page</a>
+                                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                              </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="card mb-3">
+                                <img src="images/home-card-3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h3 class="card-title">Pusheen Things I Love Mug</h3>
+                                  <h2 class="card-text">$5.99</h2>
+                                  <a href="product3.html" class="btn btn-primary">Go to Page</a>
+                                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                              </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="card mb-3">
+                                <img src="images/home-card-4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h3 class="card-title">Black Cat Mug</h3>
                                   <h2 class="card-text">$5.99</h2>
                                   <a href="#" class="btn btn-primary">Go to Page</a>
                                   <a href="#" class="btn btn-primary">Add to Cart</a>
@@ -341,6 +354,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="https://assets.teepublic.com/assets/application-9eb7082ba62e962bdab3b338077c858cdd96e7bb56890591aa738095be6dcc89.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

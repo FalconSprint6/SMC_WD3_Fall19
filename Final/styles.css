@@ -1,14 +1,27 @@
 /* inside navbaar text when hovered */
 a:hover, span.a:hover {
-    color: green !important;
+    color: #ffdb8c !important;
     text-decoration: none;
 }
-/* inside navbaar text normal */
+/* inside navbar text normal */
 a, span.a {
     transition: all 0.1s ease-in-out;
     color: #ffbd2e !important;
     cursor: pointer;
 }
+#nav1:hover {
+ color: #ffbd2e !important;
+}
+#nav2:hover {
+    color: #ffbd2e !important;
+   }
+#nav3:hover {
+    color: #ffbd2e !important;
+   }
+#nav4:hover {
+    color: #ffbd2e !important;
+   }
+
 /* subhead nav text normal*/
 
 .h__header, .h__h1, .h__h1--loud, .h__h1--hero, .h__h1--sm, .h__h2--primary, .h__h2--loud, .h__h2--sm, .h__h2--secondary, .h__h3, .h__h3--loud, .h__h3--secondary--sm, .h__h3--primary--sm, .h__h4, .h__h4--loud {
@@ -21,6 +34,8 @@ a, span.a {
     color: #ffbd2e !important;
 }
 
+
+
 /* button text*/
 
 .btn {
@@ -28,7 +43,13 @@ a, span.a {
     background-color: #ffbd2e !important;
 }
 
+.btn:hover {
+    color: white !important;
+    background-color: #ffdb8c !important;
+}
+
 /* shopping cart */
+
 .tp-cart:hover {
     transform: rotate(-25deg) !important;
 }
@@ -60,4 +81,50 @@ color:grey !important;
 
 .footerH {
     color: #ffbd2e !important;
+}
+
+/* FAQ Page */
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+
+/*alert*/
+.alert-success {
+    color: orange !important;
+}
+
+/*product page*/
+.rec {
+    border: 1px solid grey;
+    width: 160px;
+    height: 160px;
+}
+.recDes {
+    color: grey
 }
