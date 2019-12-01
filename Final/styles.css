@@ -128,3 +128,25 @@ h2 {
 .recDes {
     color: grey
 }
+
+/*-------blog page--------*/
+
+.jumbotron {
+    background-image: url("images/lotsamugs.png");
+    background-size: cover;
+
+}
+
+.display-4, .header, .subhead, .sideHead {
+    font-family: futura-pt-bold, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.blog-post-title {
+    font-family: futura-pt-bold, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.blogwords {
+    font-family: helvetica, arial, sans-serif;
+}
