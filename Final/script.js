@@ -37,7 +37,7 @@ function addressFunction()
         document.getElementById('billingState').value = '';
         document.getElementById('billingCity').value = '';
         document.getElementById('billingZip').value = '';       
-}};
+}}; //end fill billing
 
 
 
