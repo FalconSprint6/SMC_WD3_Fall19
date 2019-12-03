@@ -11,7 +11,7 @@ $components = explode('/', $path);
             <div class="contain">
                 <nav class="m-head__nav">
                     <div class="m-head__home">
-                        <a href="#">
+                        <a href="home.php">
                             <picture>
                                 <source media="(min-resolution: 192dpi)"
                                     srcset="images/catmugs1.png">
@@ -38,8 +38,9 @@ $components = explode('/', $path);
                                             onclick="$('#login-modal').show_login_options($('#account-login'));">
                                             Log In
                                         </a>
-                                        <a class="m-head__dropdown-link" href="/signup/designer/sell-art-online">Contact/FAQ</a>
-                                        <a class="m-head__dropdown-link" href="/signup/designer/sell-art-online">About
+                                        <a class="m-head__dropdown-link" href="blog.php">Blog</a>
+                                        <a class="m-head__dropdown-link" href="faq-support.php">Contact/FAQ</a>
+                                        <a class="m-head__dropdown-link" href="checkout.php">About
                                             CatMugs</a>
                                     </nav>
                                 </div>

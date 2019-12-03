@@ -136,7 +136,7 @@
                                 <div class="card-body">
                                   <h3 class="card-title">Don't Care Cat Mug</h3>
                                   <h2 class="card-text">$5.99</h2>
-                                  <a href="product1.html" class="btn btn-primary">Go to Page</a>
+                                  <a href="product1.php" class="btn btn-primary">Go to Page</a>
                                   <a href="#" class="btn btn-primary">Add to Cart</a>
                                 </div>
                               </div>
@@ -147,7 +147,7 @@
                                 <div class="card-body">
                                   <h3 class="card-title">French Cat Mug</h3>
                                   <h2 class="card-text">$5.99</h2>
-                                  <a href="product2.html" class="btn btn-primary">Go to Page</a>
+                                  <a href="product2.php" class="btn btn-primary">Go to Page</a>
                                   <a href="#" class="btn btn-primary">Add to Cart</a>
                                 </div>
                               </div>
@@ -158,7 +158,7 @@
                                 <div class="card-body">
                                   <h3 class="card-title">Pusheen Things I Love Mug</h3>
                                   <h2 class="card-text">$5.99</h2>
-                                  <a href="product3.html" class="btn btn-primary">Go to Page</a>
+                                  <a href="product3.php" class="btn btn-primary">Go to Page</a>
                                   <a href="#" class="btn btn-primary">Add to Cart</a>
                                 </div>
                               </div>
