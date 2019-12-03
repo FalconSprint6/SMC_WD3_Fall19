@@ -12,6 +12,18 @@ $(document).ready(function () {
                 preventDefault();
                 $("#buttonAlert").addClass('show');
         }); // end FAQ submit button click
+
+        var button = document.getElementById('burger'); // Assumes element with id='button'
+
+button.onclick = function() {
+    var div = document.getElementById('sideNav');
+    if (div.style.display !== 'none') {
+        div.style.display = 'none';
+    }
+    else {
+        div.style.display = 'block';
+    }
+};
 }); // end ready
 
 function addressFunction() 
@@ -177,3 +189,4 @@ function something() {
   $(function () {
         $(".my-cart-btn").myCart(options);
     });
+

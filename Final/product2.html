@@ -9,12 +9,199 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" media="all"
+        href="https://assets.teepublic.com/assets/application-c3fdcf06c12a85c46c248bec998ca3f30c75d7f9b05ed121084ace971de2cd5f.css" />
     <link rel="stylesheet" href="styles.css">
 
     <title>Don't Care Cat Mug</title>
 </head>
 
 <body>
+    <!--Start Navbar-->
+    <header class="m-head jsHead">
+            <div class="m-head__content">
+                <div class="contain">
+                    <nav class="m-head__nav">
+                        <div class="m-head__home">
+                            <a href="index.html">
+                                <picture>
+                                    <source media="(min-resolution: 192dpi)" srcset="images/catmugs1.png">
+                                    <img class="m-head__logo" alt="CatMugs" src="images/catmugs2.png">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="m-head__site-navs">
+                            <div class="m-head__site-nav--menu m-head__account jsDropdown">
+                                <div class="m-head__site-nav">
+                                    <a class="m-head__avatar-link jsDropdownTouch">
+                                        <i class="icon touchable tp tp-user icon-l1 m-head__nav-icon"></i>
+                                    </a>
+                                    <div class="m-head__dropdown-arrow"></div>
+                                    <div class="m-head__dropdown">
+                                        <nav class="m-head__dropdown-links">
+                                            <a class="mtrl-modal-trigger m-head__dropdown-link" href="#login-modal"
+                                                id="create-link">
+                                                Create Account
+                                            </a>
+                                            <a class="mtrl-modal-trigger m-head__dropdown-link" href="#login-modal"
+                                                id="login-link">
+                                                Log In
+                                            </a>
+                                            <a class="m-head__dropdown-link" href="blog.html">Blog</a>
+                                            <a class="m-head__dropdown-link" href="faq-support.html">Contact/FAQ</a>
+                                            <a class="m-head__dropdown-link" href="checkout.html">About
+                                                CatMugs</a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-head__site-nav--menu jsDropdown jsHeadCart">
+                                <div class="m-head__site-nav m-head__cart">
+                                    <a class="jsDropdownTouch" href="/cart">
+                                        <i class="icon touchable tp tp-cart icon-l1 m-head__nav-icon"></i>
+                                    </a>
+                                    <div class="m-head__dropdown-arrow"></div>
+                                    <div class="m-head__dropdown">
+                                        <div class="m-head__cart-content">
+                                            <div class="m-head__dropdown-head">
+                                                <span class="h h5 h--no-s">My cart</span>
+                                                <span class="link link--1 jsDropdownTouch">
+                                                    <i class="icon-l1 tp tp-x-light" id="cart"></i>
+                                                </span>
+                                            </div>
+                                            <div class="active jsHeadCartEmpty m-head__cart-empty text-block">
+                                                <p>Your cart is looking pretty empty!</p>
+                                                <a class="btn btn--large btn--full" id="shopNow" href="/t-shirts">Shop
+                                                    Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                            <div class="m-head__site-nav m-head__sidenav-ctrl">
+                                <a class="hamburger-menu jsSiteSideNavCtrl" id="burger" href="#">
+                                    <i class="icon tp tp-hamburger"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="m-head__tagline">
+                <div class="contain m-head__tagline-cont">
+                    <a class="link" href="#" target="_blank">
+                        5% of each purchase goes toward animal shelters.
+                    </a>
+                </div>
+            </div>
+    
+            <nav class="contain">
+                <div class="m-head__subnav">
+                    <div class="m-head__subnav-menu m-head__browse jsDropdown jsDropdownTouch">
+                        <a class="h__h3--loud link link--2 gtmHeaderLink" data-gtm-header-link-text="Browse"
+                            href="/t-shirts" id="nav1">Browse</a>
+                        <div class="m-head__dropdown-arrow"></div>
+                        <div class="m-head__dropdown jsDropdownContent">
+                            <nav class="m-head__dropdown-links jsDropdownLinks">
+                                <a class="gtmHeaderLink" data-gtm-header-link-text="All Designs" href="#">All
+                                    Mugs</a>
+                                <a class="gtmHeaderLink" data-gtm-header-link-text="New Tees on Sale" href="#">Most
+                                    Popular</a>
+                                <a class="gtmHeaderLink" data-gtm-header-link-text="Featured Designers" href="#">Mugs on
+                                    Sale</a>
+                                <a class="gtmHeaderLink" data-gtm-header-link-text="Newest Designers" href="#">Newest
+                                    Designers</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="m-head__subnav-menu jsDropdown jsDropdownTouch">
+                        <a class="h__h3--loud link link--2" href="#" id="nav2">Cat Shaped Mugs</a>
+                    </div>
+                    <div class="m-head__subnav-menu jsDropdown jsDropdownTouch">
+                        <a class="h__h3--loud link link--2" href="#" id="nav3">Cat Print Mugs</a>
+                    </div>
+                    <div class="m-head__subnav-menu jsDropdown jsDropdownTouch">
+                        <a class="h__h3--loud link link--2" href="#" id="nav3">Pusheen Mugs</a>
+                    </div>
+                </div>
+            </nav>
+    
+            <!-- Side Nav that doesnt work-->
+            <!--<nav class="side-nav m-side-nav-site jsSiteSideNav active" id="sideNav">
+            <ul>
+            <li class="side-nav__section side-nav__search side-nav__nav">
+            <form action="/search_submission" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="patch"><input type="hidden" name="authenticity_token" value="tKci8B4wEqIY7I+IcRXS8RY07yEzeGSYbMf9avU9CJKMnLaJ859hY4j5zG4+RlThoR11u7jnxHRrnrti+6xP2w==">
+            <div class="form-field-icon-wrap">
+            <i class="icon tp tp-search"></i>
+            <input type="text" name="query" id="query" class="form__control form__control--1 side-nav__search-field m-side-nav-site__search-field" placeholder="Search all designs">
+            </div>
+            </form>
+            
+            </li>
+            <li class="side-nav__section">
+            <span class="side-nav__h h h--4">My TeePublic</span>
+            <ul>
+            <li class="side-nav__nav">
+            <a class="login mtrl-modal-trigger side-nav__link" href="#login-modal" id="login-link" onclick="$('#login-modal').show_login_options($('#account-login'));">
+            <i class="tp tp-enter side-nav__icon icon-l1"></i>
+            <span class="side-nav__nav-text">Sign In</span>
+            </a><div style="display: none;"><a href="zyqfbeuezcrtstuxryrfecverbuvxvwvf.html" id="zzvzcxzwdvswcfvrfxzsvvuesqcuswbscy" rel="file">dwxqfazttswdre</a></div>
+            </li>
+            <li class="side-nav__nav">
+            <a class="create-account mtrl-modal-trigger side-nav__link" href="#login-modal" id="create-link" onclick="$('#login-modal').show_login_options($('#account-creation'));">
+            <i class="tp tp-plus-circle side-nav__icon icon-l1"></i>
+            <span class="side-nav__nav-text">Create an Account</span>
+            </a>
+            </li>
+            <li class="side-nav__nav">
+            <a class="side-nav__link" href="/signup/designer/sell-art-online">
+            <img class="side-nav__icon icon-l1" src="images/catmugs1.png">
+            <span class="side-nav__nav-text">About TeePublic</span>
+            </a>
+            </li>
+            </ul>
+            </li>
+            <li class="side-nav__section">
+            <span class="side-nav__h h h--4">Shop</span>
+            <ul>
+            <li class="side-nav__nav">
+            <a class="side-nav__link" href="/t-shirts">
+            <i class="tp tp-art-1 side-nav__icon icon-l1"></i>
+            <span class="side-nav__nav-text">All Designs</span>
+            </a>
+            </li>
+            <li class="side-nav__nav">
+            <a class="side-nav__link" href="/t-shirts?sort=newest">
+            <i class="tp tp-tag side-nav__icon icon-l1"></i>
+            <span class="side-nav__nav-text">New Tees on Sale</span>
+            </a>
+            </li>
+            <li class="side-nav__nav">
+            <a class="side-nav__link" href="/featured-designers">
+            <i class="tp tp-star side-nav__icon icon-l1"></i>
+            <span class="side-nav__nav-text">Featured Designers</span>
+            </a>
+            </li>
+            <li class="side-nav__nav">
+            <a class="side-nav__link" href="/newest-designers">
+            <i class="tp tp-new side-nav__icon icon-l1"></i>
+            <span class="side-nav__nav-text">Newest Designers</span>
+            </a>
+            </li>
+            </ul>
+            </li>
+            <li class="side-nav__nav">
+            <button class="side-nav__link side-nav__link--button jsChangeIntlSettings">
+            <img class="side-nav__icon icon-l1 side-nav__img" src="https://assets.teepublic.com/assets/icons/glyph__globe--dark@2x-5146dd82543b68a722f4a16b0f0314dee0cd041aa9ebd414ff42315382962f27.png">
+            <span class="side-nav__nav-text">English (US) - $ USD</span>
+            </button>
+            </li>
+            </ul>
+            
+            </nav>-->
+        </header>
+        <!--End Navbar-->
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -70,6 +257,45 @@
 
         </div>
     </div>
+     <!--Begin Footer-->
+     <footer class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md text-center">
+                    <img src="images/catmugs-Copy.png" width="48" height="48"></img>
+                    <small class="d-block mb-3 text-muted">© 2017-2019</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5 class="footerH">Browse</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">All Mugs</a></li>
+                        <li><a class="text-muted" href="#">Most Popular</a></li>
+                        <li><a class="text-muted" href="#">Mugs on Sale</a></li>
+                        <li><a class="text-muted" href="#">Newest Designers</a></li>
+                        <li><a class="text-muted" href="#">Cat Shaped Mugs</a></li>
+                        <li><a class="text-muted" href="#">Cat Print Mugs</a></li>
+                        <li><a class="text-muted" href="#">Pusheen Mugs</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5 class="footerH">Account</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Create Account</a></li>
+                        <li><a class="text-muted" href="#">Log In</a></li>
+                        <li><a class="text-muted" href="#">Cart</a></li>
+                        <li><a class="text-muted" href="#">Checkout</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5 class="footerH">About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Contact/FAQ</a></li>
+                        <li><a class="text-muted" href="#">About CatMugs</a></li>
+                        <li><a class="text-muted" href="#">Privacy</a></li>
+                        <li><a class="text-muted" href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
