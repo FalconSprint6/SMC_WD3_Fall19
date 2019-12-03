@@ -1,23 +1,7 @@
-<!doctype html>
-<html lang="en">
+<?php $title = "Checkout"; ?>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Carme&display=swap');
-  </style>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" media="all"
-        href="https://assets.teepublic.com/assets/application-c3fdcf06c12a85c46c248bec998ca3f30c75d7f9b05ed121084ace971de2cd5f.css" />
-  <link rel="stylesheet" href="styles.css">
-  <title>Checkout</title>
-</head>
-
-<body>
+<?php require_once('head.php'); ?>
+<?php require_once('header.php'); ?>
 
   <div class="container shopping header px-3 py-3 pt-md-5 pb-md-3 mx-auto">
     <div class="row">
@@ -272,20 +256,4 @@
     <br>
   </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-  <script src="script.js"></script>
-
-
-</body>
-
-</html>
+  <?php require_once('footer.php'); ?>
