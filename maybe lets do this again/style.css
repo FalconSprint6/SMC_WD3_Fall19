@@ -1,0 +1,390 @@
+.navLogo {
+    display: block;
+    width: 144px
+}
+
+.dropdown-menu {
+    top: 46px;
+    left: 16px;
+    right: auto;
+    width: 165px;
+    cursor: initial;
+}
+
+/* text when hovered */
+a:hover,
+span.a:hover {
+    color: #ffdb8c;
+    text-decoration: none;
+}
+
+#topNav1,
+#topNav2,
+#topNav3 {
+    color: black !important;
+}
+
+#topNav1:hover,
+#topNav2:hover,
+#topNav3:hover {
+    color: orange !important;
+}
+
+.dropdown-item {
+    color: orange;
+    text-decoration: none;
+}
+
+.dropdown-item:hover {
+    color: #ffdb8c;
+    text-decoration: none;
+}
+
+.fa-shopping-cart {
+    color: black !important;
+    font-size: 1.4rem;
+}
+.fa-shopping-cart:hover {
+    color: orange !important;
+}
+
+#bottomNav0,
+#bottomNav1,
+#bottomNav2,
+#bottomNav3,
+#bottomNav4,
+#bottomNav5 {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-style: normal;
+    color: grey;
+}
+
+#bottomNav0:hover,
+#bottomNav1:hover,
+#bottomNav2:hover,
+#bottomNav3:hover,
+#bottomNav4:hover,
+#bottomNav5:hover {
+    color: orange;
+}
+
+#bottomNav0 {
+    border-right: grey;
+}
+
+#tagLink {
+    font-size: .8rem;
+}
+
+.bg-custom {
+    background-color: #EAEAEA;
+}
+
+#tagCont {
+    background-color: #F1F1F1;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+.btn-primary {
+    background-color: orange;
+    border: none;
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn-primary:hover {
+    background-color: #ffdb8c;
+    border: none;
+}
+
+.btn-primary:active:hover {
+    background-color: #ffdb8c;
+}
+
+.carH5 {
+    font-size: 12.1rem;
+    color: orange;
+}
+
+.carP {
+    font-size: 1rem;
+    color: black;
+}
+
+.h3title {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a.text-muted:hover {
+    color: orange !important;
+}
+
+.footerH {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card-text, .card-title {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card-text {
+    color: #575757;
+}
+
+#mobileNav,
+#mobileNav1,
+#mobileNav2,
+#mobileNav3,
+#mobileNav4,
+#mobileNav5,
+#mobileNav6 {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .navLogo {
+        width: 280px
+    }
+}
+
+@media (max-width: 430px) {
+    #tagLink {
+        font-size: .7rem !important;
+    }
+    .carH5 {
+        font-size: 2.9rem !important;
+        color: orange;
+    }
+}
+
+@media (min-width: 431px) and (max-width: 768px) {
+    .carH5 {
+        font-size: 4.5rem !important;
+        color: orange;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+    .carH5 {
+        font-size: 6rem !important;
+        color: orange;
+    }
+}
+@media (max-width: 991px) {
+#bottomNav0,
+#bottomNav1,
+#bottomNav2,
+#bottomNav3,
+#bottomNav4,
+#bottomNav5 {
+    display: none
+}
+#mobileNav,
+#mobileNav1,
+#mobileNav2,
+#mobileNav3,
+#mobileNav4,
+#mobileNav5,
+#mobileNav6 {
+    display: block;
+}
+}
+
+/*product page*/
+.rec {
+    border: 1px solid grey;
+    width: 160px;
+    height: 160px;
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.recDes {
+    color: black;
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.recpri {
+    color: grey;
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.recDes:hover {
+    color: orange;
+}
+
+.product-name {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.product-price {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #575757;
+}
+
+/*FAQ panels*/
+
+h2 {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+@media (max-width: 509px) {
+    h2 {
+        font-size: 1.3rem
+    }
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+
+.sideHead {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.archive {
+    color: orange !important;
+}
+
+.archive:hover {
+    color:#ffdb8c !important;
+}
+
+.blog-post-title {
+    font-family: futura-pt-bold, Helvetica, sans-serif;
+    font-style: normal;
+
+}
+
+#update {
+    color: orange
+}
+
+.header {
+    font-family: futura-pt-bold, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+@media (max-width: 991px) {
+    .header {
+        font-family: futura-pt-bold, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+    #update {
+        font-size: .9rem
+    }
+}
+
+
+.subhead {
+    font-family: futura-pt-bold, Helvetica, sans-serif;
+        font-weight: 700;
+}
+
+.stretched-link, .author {
+    color: orange !important;
+}
+
+.author:hover, .stretched-link:hover {
+    color: #ffdb8c !important;
+}
+
+.btn-outline-primary {
+    color: orange;
+    border-color: orange;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    background-color: orange !important;
+    border-color: orange !important;
+}
+
+.jumbotron {
+    max-height: 1000px;
+}
+
+picture {
+	position: relative !important;
+	padding: 0 !important;
+    position: relative !important;
+}
+
+#text {
+    position: absolute;
+    color: black
+}
+
+.border-light {
+    border-color: lightgrey !important;
+}
+
+.carousel-inner > .item {
+    width: 100%;
+    max-height: 900px !important;
+}
+
+.animate {
+    transform: rotate(-25deg);
+    color: orange !important;
+}
+
+.h2checkout {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
