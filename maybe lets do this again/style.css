@@ -41,7 +41,7 @@ span.a:hover {
 }
 
 .fa-shopping-cart {
-    color: black !important;
+    color: grey !important;
     font-size: 1.4rem;
 }
 .fa-shopping-cart:hover {
@@ -257,8 +257,11 @@ h2 {
 }
 @media (max-width: 509px) {
     h2 {
-        font-size: 1.3rem
+        font-size: 1.35rem
     }
+    #pan1, #pan2, #pan3 {
+    font-size: 1.22rem
+}
 }
 .accordion-section .panel-default > .panel-heading {
     border: 0;
@@ -274,17 +277,16 @@ h2 {
     font-family: 'FontAwesome';
     font-style: normal;
     font-size: 3rem;
-    content: "\f106";
     color: #1f7de2;
     float: right;
     margin-top: -12px;
 }
-.accordion-section .panel-default .panel-title a.collapsed:after {
-    content: "\f107";
-}
+
 .accordion-section .panel-default .panel-body {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
+
+
 
 .sideHead {
     font-family: futura-pt, Helvetica, sans-serif;
@@ -386,5 +388,23 @@ picture {
     font-style: normal;
 }
 
+.blog-post-title:hover {
+    color: orange
+}
 
+#h2FAQ {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: grey
+}
 
+.panel-title, #pan1, #pan2, #pan3 {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: orange 
+}
+.panel-title:hover, #pan1:hover, #pan2:hover, #pan3:hover  {
+    color: #ffdb8c
+}
