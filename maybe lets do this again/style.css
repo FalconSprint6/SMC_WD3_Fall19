@@ -115,6 +115,10 @@ span.a:hover {
     background-color: #ffdb8c;
 }
 
+.btn-primary:active {
+    background-color: orange !important;
+    outline: none !important;
+}
 .carH5 {
     font-size: 12.1rem;
     color: orange;
