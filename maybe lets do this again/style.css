@@ -121,6 +121,23 @@ span.a:hover {
    box-shadow: none !important;
 }
 
+.btn-primary:disabled {
+    background-color: grey !important
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::after {
+    background-color: orange;    
+    border-radius: 50%;
+}
+.custom-control-input:focus, .custom-control-input:active {
+    color: #ffdb8c !important;
+}
+
+.custom-control-label::after {
+    color: #ffdb8c !important
+}
+
+
 .carH5 {
     font-size: 12.1rem;
     color: orange;
