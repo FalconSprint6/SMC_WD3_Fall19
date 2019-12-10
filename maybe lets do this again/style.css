@@ -419,6 +419,15 @@ picture {
     color: #adadad
 }
 
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:orange;
+    outline: none;
+    border: none;
+  }
+  .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow:none !important;
+}
+
 .blog-post-title:hover {
     color: orange
 }
