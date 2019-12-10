@@ -42,7 +42,7 @@ span.a:hover {
 
 .fa-shopping-cart {
     color: grey !important;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 .fa-shopping-cart:hover {
     color: orange !important;
@@ -115,10 +115,12 @@ span.a:hover {
     background-color: #ffdb8c;
 }
 
-.btn-primary:active {
+.btn-primary:active, .btn-primary:focus {
     background-color: orange !important;
     outline: none !important;
+   box-shadow: none !important;
 }
+
 .carH5 {
     font-size: 12.1rem;
     color: orange;
