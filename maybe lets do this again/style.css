@@ -409,6 +409,14 @@ picture {
     font-family: futura-pt, Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
+    color: grey;
+}
+
+.shipping {
+    font-family: futura-pt, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #adadad
 }
 
 .blog-post-title:hover {
@@ -431,3 +439,5 @@ picture {
 .panel-title:hover, #pan1:hover, #pan2:hover, #pan3:hover  {
     color: #ffdb8c
 }
+
+
